@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 13px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+        stroke: #ff0;
+      }
+
+      .cls-2 {
+        stroke-width: 11px;
+      }
+
+      .cls-3 {
+        fill: #f2f2f2;
+        stroke: #000;
+      }
+
+      .cls-4 {
+        stroke-width: 14px;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-3" cx="505.91" cy="583.26" rx="39.38" ry="269.51" transform="translate(-153.68 984.61) rotate(-80.38)"/>
+  <ellipse class="cls-3" cx="963.8" cy="599.23" rx="269.51" ry="39.38" transform="translate(-44.99 79.29) rotate(-4.6)"/>
+  <ellipse class="cls-3" cx="1237.67" cy="561.07" rx="60.31" ry="27.69" transform="translate(-113.66 417.79) rotate(-18.33)"/>
+  <line class="cls-2" x1="1245.34" y1="565.28" x2="1272" y2="616.98"/>
+  <line class="cls-4" x1="1237.67" y1="553.8" x2="1214.98" y2="502.93"/>
+  <line class="cls-1" x1="1252.36" y1="555.79" x2="1503.02" y2="458.56"/>
+</svg>

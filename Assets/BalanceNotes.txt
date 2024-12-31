@@ -1,0 +1,6 @@
+Level Scaling Formula: y = x * (1.3 ^ level)
+
+Point: 100% damage
+Line: 85% damage
+Cone: 80% damage
+Circle: 75% damage

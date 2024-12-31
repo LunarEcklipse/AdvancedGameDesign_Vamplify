@@ -1,0 +1,21 @@
+Start(): Call the GenerateNewRoom event, instantiate room, player position, enemy positions. Every combatant calls a coroutine that waits one frame and then sets its position on the pathfinding grid. GameStateManager calls a coroutine that calls the CombatStart event after 2 frames.
+CombatStart(): Everyone puts themselves into the turn order. The turn order is sorted by speed. The turn manager calls the CombatTurnStart(Combatant) event.
+CombatTurnStart(Combatant): The specified combatant takes their turn. AI picks a random move. It checks the minimum number of moves needed to get to the player from its position, minus its range. If it can hit the player at range with this random move, it moves as close as 50% of the move's range to the player to hit them with it, maximum 100%. It attempts to attack the player from this position. Collateral is not worried about. If the combatant is a player, they act normally. If the attacked combatant dies, it calls the CombatantDied(Combatant) event. Otherwise, they call the EndTurn(Combatant) event.
+CombatantDied(Combatant): Remove this combatant from the turn order. Return the turn order pointer to the combatant who killed them. If death was player, call PlayerDeath event. If was enemy, call the ReportRemainingCombatants event.
+EndTurn(Combatant). Turn order pointer is progressed. Combatant updates. Repeat until all enemies are dead.
+PlayerDeath: End game, tally score
+ReportRemainingCombatants: Report to a list that the GSM checks. If the only respondant is the player, then call the EndCombat event.
+EndCombat: Turn to real time movement, spawn loot in room. Repeat.
+
+DAMAGE FORMULA:
+
+Before anything, roll for dodge. If successful, the enemy negates damage.
+Second, randomly add or subtract 5% to each of these numbers.
+Third, multiply these damage numbers by the weaknesses/resistances the enemy has to get totals after resistances.
+Fourth, check potential modifiers for modifiers that change the damage numbers on any of these attacks and apply them.
+Fifth, add all the damage back together.
+Sixth, roll for crits. Count the number of crits that happen.
+Seventh, calculate the crit damage multiplier. Multiply this by the number of crits that occur.
+Eighth: Apply remaining non damage modifiers
+Ninth: Roll for status effects
+Tenth: Apply damage and status effects to the enemy. Check if the damage is lethal. If so, add one of the enemy's random limbs to the limb pool (provided its valid). This will be the reward at the end of the room, plus another potential reward.

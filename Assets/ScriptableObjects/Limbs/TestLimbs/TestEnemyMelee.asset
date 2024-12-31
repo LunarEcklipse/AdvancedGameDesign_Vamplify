@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e695eb2f3314f4a9d490facea6891f, type: 3}
+  m_Name: TestEnemyMelee
+  m_EditorClassIdentifier: 
+  attackData: {fileID: 11400000, guid: 3a11053847b2f8d459ad0c0bb5a5a702, type: 2}
+  level: 1
+  <Range>k__BackingField: 1
+  <Radius>k__BackingField: 1
+  <Damage>k__BackingField: 10
+  originCreatureBloodColor: {r: 0.47059, g: 0.02353, b: 0.02353, a: 1}

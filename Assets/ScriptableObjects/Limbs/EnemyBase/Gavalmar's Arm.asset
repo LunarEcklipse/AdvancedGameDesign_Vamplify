@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e695eb2f3314f4a9d490facea6891f, type: 3}
+  m_Name: Gavalmar's Arm
+  m_EditorClassIdentifier: 
+  limbName: Galvamar's Arm
+  attackData: {fileID: 11400000, guid: cc0fa2df7ec579142b693dcfec140bce, type: 2}
+  damageType: 3
+  modifiers: []
+  limbSprite: {fileID: 3286163911610860551, guid: ce155d6aa8810dd4fab0bef7345d06ca, type: 3}
+  level: 1
+  baseRange: 5
+  baseRadius: 2
+  baseDamage: 7
+  originCreatureBloodColor: {r: 0.47059, g: 0.02353, b: 0.02353, a: 1}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e695eb2f3314f4a9d490facea6891f, type: 3}
+  m_Name: TestCircleAttack
+  m_EditorClassIdentifier: 
+  attackData: {fileID: 11400000, guid: a33f87efc99626942bf30b53f4dbefad, type: 2}
+  modifiers:
+  - {fileID: 11400000, guid: 09b40d5fc64d13e4faf6d1ad5babf834, type: 2}
+  level: 1
+  <Range>k__BackingField: 6
+  <Radius>k__BackingField: 1.5
+  <Damage>k__BackingField: 7
+  originCreatureBloodColor: {r: 0.47058824, g: 0.023529412, b: 0.023529412, a: 1}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a5403164ff23349aafecccc941724c, type: 3}
+  m_Name: TestLifesteal
+  m_EditorClassIdentifier: 
+  modifierName: Lifesteal
+  modifierDescription: Steals life on hit.
+  modifierViability: 0
+  modifierRarity: 0
+  modifierLevel: 1
+  baseLifestealPercentage: 0.2
+  lifestealScalingPerLevel: 0.2

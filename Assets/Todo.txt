@@ -1,0 +1,27 @@
+1) Get the player moving with keyboard keys.
+2) Get a combatant turn order working. Test it by having space end turn.
+3) Construct UI.
+4) Rework attack logic to use limbs.
+5) Get the game's combat states working.
+
+MODIFIERS:
+
+- Health Up/Down
+- Crit Chance Up/Down
+- Crit Damage Up/Down
+- Dodge Chance Up/Down
+- Lifesteal on Hit
+- Damage Resistance Up/Down
+- Damage Up/Down
+Radius Up/Down
+Range Up/Down
+Attacks Per Turn Up/Down
+Reflect/Receive % of Damage
+
+LEGENDARY:
+All damage is true damage
+Permanently increases damage after every kill
+Permanently increases health after every kill
+Permanently increases crit chance after every kill
+Chance to instantly kill target
+Chance to double strike the target
